@@ -9,7 +9,7 @@ Dependencies for Brownian:
 
 Dependencies for wireworld:
     
-    
+    os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
     import pygame
     import sys
     import time
