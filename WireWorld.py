@@ -6,6 +6,7 @@ electron tail → conductor,
 conductor → electron head if exactly one or two of the neighbouring cells are electron heads, otherwise remains conductor.
 """
 
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 import pygame
 import sys
 import time
